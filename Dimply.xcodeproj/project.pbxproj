@@ -16,6 +16,7 @@
 		659971DD2A8F147E003173B3 /* DimplyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659971DC2A8F147E003173B3 /* DimplyTests.swift */; };
 		659971E72A8F147E003173B3 /* DimplyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659971E62A8F147E003173B3 /* DimplyUITests.swift */; };
 		659971E92A8F147E003173B3 /* DimplyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659971E82A8F147E003173B3 /* DimplyUITestsLaunchTests.swift */; };
+		659971F62A8F1529003173B3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 659971F52A8F1529003173B3 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		659971E22A8F147E003173B3 /* DimplyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimplyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		659971E62A8F147E003173B3 /* DimplyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimplyUITests.swift; sourceTree = "<group>"; };
 		659971E82A8F147E003173B3 /* DimplyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimplyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		659971F52A8F1529003173B3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				659971C62A8F147D003173B3 /* DimplyApp.swift */,
 				659971C82A8F147D003173B3 /* ContentView.swift */,
+				659971F52A8F1529003173B3 /* .gitignore */,
 				659971CA2A8F147E003173B3 /* Assets.xcassets */,
 				659971CF2A8F147E003173B3 /* Persistence.swift */,
 				659971D12A8F147E003173B3 /* Dimply.xcdatamodeld */,
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				659971CE2A8F147E003173B3 /* Preview Assets.xcassets in Resources */,
+				659971F62A8F1529003173B3 /* .gitignore in Resources */,
 				659971CB2A8F147E003173B3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
