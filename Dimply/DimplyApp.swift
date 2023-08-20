@@ -13,7 +13,7 @@ struct DimplyApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
