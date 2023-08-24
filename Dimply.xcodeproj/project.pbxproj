@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F115EDC2A94F412009C0EE2 /* GeofencingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F115EDB2A94F412009C0EE2 /* GeofencingManager.swift */; };
+		0F115EDE2A94F469009C0EE2 /* GeofencingNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F115EDD2A94F469009C0EE2 /* GeofencingNotifications.swift */; };
 		0F81C7E82A92051B0025EB13 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81C7E72A92051B0025EB13 /* LocationManager.swift */; };
 		0F81C7EA2A920A130025EB13 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81C7E92A920A130025EB13 /* LocationView.swift */; };
 		0F81C7EC2A920AA00025EB13 /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81C7EB2A920AA00025EB13 /* LocationRequestView.swift */; };
+		0F8E676D2A93033D00A3EF77 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E676C2A93033D00A3EF77 /* NotificationHandler.swift */; };
 		659971C72A8F147D003173B3 /* DimplyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659971C62A8F147D003173B3 /* DimplyApp.swift */; };
 		659971C92A8F147D003173B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659971C82A8F147D003173B3 /* ContentView.swift */; };
 		659971CB2A8F147E003173B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 659971CA2A8F147E003173B3 /* Assets.xcassets */; };
@@ -40,9 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F115EDB2A94F412009C0EE2 /* GeofencingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencingManager.swift; sourceTree = "<group>"; };
+		0F115EDD2A94F469009C0EE2 /* GeofencingNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencingNotifications.swift; sourceTree = "<group>"; };
 		0F81C7E72A92051B0025EB13 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		0F81C7E92A920A130025EB13 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		0F81C7EB2A920AA00025EB13 /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
+		0F8E676C2A93033D00A3EF77 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
+		0F8E676E2A93169600A3EF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		659971C32A8F147D003173B3 /* Dimply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dimply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		659971C62A8F147D003173B3 /* DimplyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimplyApp.swift; sourceTree = "<group>"; };
 		659971C82A8F147D003173B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,6 +96,8 @@
 				0F81C7EB2A920AA00025EB13 /* LocationRequestView.swift */,
 				0F81C7E92A920A130025EB13 /* LocationView.swift */,
 				0F81C7E72A92051B0025EB13 /* LocationManager.swift */,
+				0F115EDB2A94F412009C0EE2 /* GeofencingManager.swift */,
+				0F115EDD2A94F469009C0EE2 /* GeofencingNotifications.swift */,
 			);
 			path = UserLocation;
 			sourceTree = "<group>";
@@ -116,11 +125,13 @@
 		659971C52A8F147D003173B3 /* Dimply */ = {
 			isa = PBXGroup;
 			children = (
+				0F8E676E2A93169600A3EF77 /* Info.plist */,
 				659971C62A8F147D003173B3 /* DimplyApp.swift */,
 				659971C82A8F147D003173B3 /* ContentView.swift */,
 				659971F52A8F1529003173B3 /* .gitignore */,
 				659971CA2A8F147E003173B3 /* Assets.xcassets */,
 				659971CF2A8F147E003173B3 /* Persistence.swift */,
+				0F8E676C2A93033D00A3EF77 /* NotificationHandler.swift */,
 				0F81C7ED2A9211170025EB13 /* UserLocation */,
 				659971D12A8F147E003173B3 /* Dimply.xcdatamodeld */,
 				659971CC2A8F147E003173B3 /* Preview Content */,
@@ -285,6 +296,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				659971D02A8F147E003173B3 /* Persistence.swift in Sources */,
+				0F115EDE2A94F469009C0EE2 /* GeofencingNotifications.swift in Sources */,
+				0F8E676D2A93033D00A3EF77 /* NotificationHandler.swift in Sources */,
+				0F115EDC2A94F412009C0EE2 /* GeofencingManager.swift in Sources */,
 				0F81C7EA2A920A130025EB13 /* LocationView.swift in Sources */,
 				0F81C7EC2A920AA00025EB13 /* LocationRequestView.swift in Sources */,
 				659971C92A8F147D003173B3 /* ContentView.swift in Sources */,
@@ -452,6 +466,8 @@
 				DEVELOPMENT_TEAM = G8XXRLYN3L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dimply/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -482,6 +498,8 @@
 				DEVELOPMENT_TEAM = G8XXRLYN3L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dimply/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
